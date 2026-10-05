@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Optime (Viking-NZT household)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+  h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+  h2 { margin-top: 30px; }
+  code { background: #f4f4f4; padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p><strong>Optime (Viking-NZT household)</strong><br>Last updated: October 5, 2026</p>
+
+<h2>What this is</h2>
+<p>Optime is a personal health app that each member of a private household runs on their own computer. It is not a public service.</p>
+
+<h2>What it reads from WHOOP</h2>
+<p>Recovery, sleep, strain and cycles, workouts, profile and body measurements, with offline access so it can keep syncing while Optime is open.</p>
+
+<h2>Where your data goes</h2>
+<p>Only to your own computer, into Optime's local database. It is not sent to the app's operator, to other household members, or to any third party. There is no analytics or tracking.</p>
+
+<h2>The sign-in relay</h2>
+<p>Sign-in and token renewal pass through a small Cloudflare Worker run by the operator (<code>optime-whoop-relay.arbnzt.workers.dev</code>), which adds the app's client secret. Your tokens pass through it in memory only and are never stored or logged. Your health data never passes through it: Optime fetches it directly from WHOOP.</p>
+
+<h2>Stopping and deleting</h2>
+<p>Revoke access at any time in your WHOOP account settings. Data already synced stays on your computer until you delete it there.</p>
+
+<h2>Contact</h2>
+<p>For questions about this privacy policy, contact: alexbanoun@gmail.com</p>
+</body>
+</html>
